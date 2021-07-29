@@ -6,7 +6,7 @@ Define Sql Queries and dependent sql actions that should be executed
 - and when returning rows you perform 1..n actions
 - e.g. execute another sql, that uses the returned results as an input
 - or execute an external program using the results as parameters
-- 1 row at a time or all rows at once
+- processing 1 row at a time or all rows at once
 - or maybe exporting everything into a csv and calling a program once
 - define a take action if t-sql-script you can further fine tune when an action should be performed
 
