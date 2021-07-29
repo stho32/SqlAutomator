@@ -8,6 +8,7 @@ Define Sql Queries and dependent sql actions that should be executed
 - or execute an external program using the results as parameters
 - 1 row at a time
 - or maybe exporting everything into a csv and calling a program once
+- define a take action if t-sql-script you can further fine tune when an action should be performed
 
 Sql Queries and Actions can be executed within the same sql connection or not (for interdatabase transfers).
 
